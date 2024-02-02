@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Joel Theme</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="photon/fonts/icomoon/style.css">
+    
+    <link rel="stylesheet" href="photon/css/jquery-ui.css">
+    <link rel="stylesheet" href="photon/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="photon/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="photon/css/lightgallery.min.css">    
+    
+    <link rel="stylesheet" href="photon/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="photon/fonts/flaticon/font/flaticon.css">
+    
+    <link rel="stylesheet" href="photon/css/swiper.css">
+
+    <link rel="stylesheet" href="photon/css/aos.css">
+
+    <link rel="stylesheet" href="photon/css/style.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/bootstrap.min.js" ></script>
+    
+</head>
+<body>
+  
+<div class="preload_container">
+	<svg id="gogotland-logo" xmlns="http://www.w3.org/2ffffff/svg" viewBox="0 0 309.116 324.165">
+	  <g>
+	    <path id="circle-bot" d="M92.548,284.8a54.226,54.226,0,1,0-54.226-54.226A54.226,54.226,0,0,0,92.548,284.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-mid" d="M270.794,162.037a54.226,54.226,0,1,1-54.226-54.226A54.226,54.226,0,0,1,270.794,162.037Z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-top" d="M92.548,39.368A54.226,54.226,0,1,1,38.322,93.594,54.226,54.226,0,0,1,92.548,39.368" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-line" d="M187.35,39.368h-94.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	  </g>
+	</svg>
+  
+  <style>
+    @-webkit-keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    #gogotland-logo #circle-bot, 
+    #gogotland-logo #circle-mid {
+        -webkit-animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+    }
+    #gogotland-logo #circle-top {
+        -webkit-animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;	
+    }
+    #gogotland-logo #circle-line {
+        stroke-dasharray: 95;
+        stroke-dashoffset: 95;
+        -webkit-animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+                animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+    
+    #gogotland-logo #circle-bot {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, -30px);
+            -ms-transform: translate(30px, -30px);
+                transform: translate(30px, -30px);
+    }
+    
+    #gogotland-logo #circle-top {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, 30px);
+            -ms-transform: translate(30px, 30px);
+                transform: translate(30px, 30px);
+    }
+    
+    #gogotland-logo #circle-mid {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(-40px, 0px);
+            -ms-transform: translate(-40px, 0px);
+                transform: translate(-40px, 0px);
+    }
+
+  </style>
+</div>
+
+<img src="photon/images/Visby2x.jpg" class="joel_background_blur_image"/>
+<header id="header_section" class="header_section">
+    <nav class="nav_section d-block" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-8 joel_contact">
+                  <a href="tel:+46498213300"><img src="icons/PHONE@2x.png@2x.png" /> <b>0498 213300</b></a>
+                </div>
+                <div class="col-6 col-sm-4 text-right joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/VitLogo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="nav_section d-none" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/VitLogo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+                
+                <div class="col-12 joel_contact"><i class="fas fa-phone-alt"></i> <b>0498-213300</b></div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="slider_section" id="slider_section">
+        <div class="joel_slider_constant_title">
+          <h1>Låt äventyret börja.</h1>
+        </div>
+        <div class="swiper-container images-carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" target_data_id="1" >
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/kultudralen_logo.png" alt="Activity Image" class="act_logo"/>
+                    </div>
+                    <img src="photon/images/Visby@2x.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="2">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/The_artist_logo.png" alt="Activity Image" class="act_logo"/>
+                    </div>
+                    <img src="photon/images/The Artist@2x.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="3">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/Slaget_om_visby_logo.png" alt="Activity Image" class="act_logo" />
+                    </div>
+                    <img src="photon/images/Visby2x.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="4">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/Gotland_Grand_Pr_xLogo.png" alt="Activity Image" class="act_logo"/>
+                    </div>
+                    <img src="photon/images/GotlandPrix@2x.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="5">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/cake_logo.png" alt="Activity Image" class="act_logo" />
+                    </div>
+                    <img src="photon/images/img_2.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="6">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/SKATTJAKTEN_logo.png" alt="Activity Image" class="act_logo"/>
+                    </div>
+                    <img src="photon/images/img_1.jpg" alt="Image">
+                  </div>
+                </div>
+                <div class="swiper-slide" target_data_id="7">
+                  <div class="image-wrap">
+                    <div class="image-info">
+                      <img src="logos/Havsfiske_logo.png" alt="Activity Image" class="act_logo"/>
+                    </div>
+                    <img src="photon/images/img_7.jpg" alt="Image">
+                  </div>
+                </div>
+            </div>
+    
+            <div class="swiper-pagination d-none"></div>
+            <div class="swiper-button-prev d-none"></div>
+            <div class="swiper-button-next d-none"></div>
+            <div class="swiper-scrollbar d-none"></div>
+        </div>
+    </section>
+    
+</header>
+
+<div class="che_sections_contain">
+  <section class="section_one data_slider_section" id="section_one" data_active_id="3">
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="joel_switches col-lg-10">
+            <div class="row no-gutters joel_switches_row justify-content-center align-items-center">
+              
+              <div class="col-lg-3 col-md-3 col-sm-3 col-6 joel_switch align-items-center justify-content-center box_one">
+                <span class="joel_thin">UPP TILL 1200</span>
+                <span class="joel_thick">DELTAGARE</span>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-3 col-6 joel_switch align-items-center justify-content-center box_two">
+                <span class="joel_thin">HELA VISBY AR</span>
+                <span class="joel_thick">AKTIVITETSPLATS</span>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-3 col-6 joel_switch align-items-center justify-content-center box_three">
+                <span class="joel_thin">4-32</span>
+                <span class="joel_thick">LAG</span>
+              </div>
+              
+              <div class="col-lg-3 col-md-3 col-sm-3 col-6 joel_switch align-items-center justify-content-center box_four">
+                <span class="joel_thin">2-5</span>
+                <span class="joel_thick">TIMMAR</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <section class="section_two data_slider_section" id="section_two" data_active_id="3">
+      <div class="container joel_description_area">
+        <div class="row align-items-center justify-content-center">
+            
+            <div class="col-12 col-md-10 text-center">
+              
+              <h4 class="joel_description_area_title">Upplev ett modeltida Gotland med foretaget</h4>
+              
+              <div class="row align-items-center justify-content-center joel_description_area_row no-gutters">
+                <div class="joel_description_area_description col-md-8">Bland gränder och dimhöjda ruiner hägrar de hemliga mötesplatserna. Där utspelas också ett spännande äventyr. En konferens på ön ger möjligheten till såväl äventyr upplevelser och utveckling. Lös gåtor och uppgifter som kräver samarbete. Mellan utmaningar och möten i gränder samlas ni i Visbys ruiner där ni under ledning av medeltidsprofiler får tävla mot varandra. Kom tillbaka till ön och upptäck med medeltida Visby där vi utvecklas med vår historia.</div>
+              </div>
+              
+              <div class="d-none d-lg-block">
+                <div class="joel_description_gadgets row justify-content-center align-items-center no-gutters">
+                  <div class="col-lg-3 col-sm-4 text-center joel_description_gadget film_link" data-toggle="modal" data-target="#myModal"><span>SPELA FILM</span> <img src="icons/PLAY@2x.png@2x.png" class="icon_img"/></div>
+                  <div class="col-lg-4 col-4 text-center joel_description_gadget"><img src="logos/Slaget_om_visby_logo.png" class="joel_description_gadgets_logo" alt="Activity LOGO" /></div>
+                  <a href="" class="col-lg-3 col-4 text-center joel_description_gadget book_link"><span class="book" style="font-size: 12px;">Boka nu</span> <img src="icons/TICKET@2x.png@2x.png" class="icon_img" style="width: 29px; height: 18px; margin-left: 8px; margin-bottom: 3px;"/></a>
+                </div>
+              </div>
+              
+              <div class="d-none d-sm-block d-md-block d-lg-none d-xl-none">
+                <div class="joel_description_gadgets row justify-content-center align-items-center no-gutters">
+                  <div class="col-lg-3 col-sm-4 text-center joel_description_gadget film_link" data-toggle="modal" data-target="#myModal"><span>SPELA FILM</span> <img src="icons/PLAY@2x.png@2x.png" class="icon_img"/></div>
+                  <div class="col-lg-4 col-sm-4 text-center joel_description_gadget"><img src="logos/Slaget_om_visby_logo.png" class="joel_description_gadgets_logo" alt="Activity LOGO" /></div>
+                  <a href="" class="col-lg-3 col-sm-4 text-center joel_description_gadget book_link"><span class="book" style="font-size: 12px;">Boka nu</span> <img src="icons/TICKET@2x.png@2x.png" class="icon_img" style="width: 29px; height: 18px; margin-left: 8px; margin-bottom: 3px;"/></a>
+                </div>
+              </div>
+              
+              <div class="d-xs-block d-sm-none d-md-none d-lg-none d-xl-none" data-toggle="modal" data-target="#myModal">
+                <div class="joel_description_gadgets row justify-content-center align-items-center no-gutters">
+                  <div class="col-lg-4 col-sm-4 col-12 text-center joel_description_gadget"><img src="logos/Slaget_om_visby_logo.png" class="joel_description_gadgets_logo" alt="Activity LOGO" /></div>
+                  <div class="col-lg-3 col-sm-4 col-6 text-center joel_description_gadget film_link"><span>SPELA FILM</span> <img src="icons/PLAY@2x.png@2x.png" class="icon_img"/></div>
+                  <a href="" class="col-lg-3 col-sm-4 col-6 text-center joel_description_gadget book_link"><span class="book" style="font-size: 12px;">Boka nu</span> <img src="icons/TICKET@2x.png@2x.png" class="icon_img" style="width: 29px; height: 18px; margin-left: 8px; margin-bottom: 3px;"/></a>
+                </div>
+              </div>
+              
+          </div>
+            
+          <div class="row justify-content-center align-items-center konfere">
+            <div class="col-12">        
+              <p>Upptäck fler aktiviteter för er nästa konferens</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</div>
+    
+<section class="section_three" id="section_three">
+  <div class="container konferens">
+    
+    <div class="row">
+      
+      <div class="col-sm-12 d-flex justify-content-end joel_filters_trigger_container" data_target_id="joel_filters_id">        
+        <button class="filters_btn"><img src="icons/menu@2x.png" class="icon_img"/> Populärast</button>
+      </div>
+      
+      <div class="col-sm-12" id="joel_filters_id" style="display: none;">
+        <div class="joel_filters_buttons d-flex">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center active" id="popularast-tab" data-toggle="tab" href="#popularast" role="tab" aria-controls="popularast" aria-selected="true">Populärast</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="sma_grupper-tab" data-toggle="tab" href="#sma_grupper" role="tab" aria-controls="sma_grupper" aria-selected="true">Små grupper</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="stora_grupper-tab" data-toggle="tab" href="#stora_grupper" role="tab" aria-controls="stora_grupper" aria-selected="true">Stora grupper</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="sommar-tab" data-toggle="tab" href="#sommar" role="tab" aria-controls="sommar" aria-selected="true">Sommar</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="var-tab" data-toggle="tab" href="#var" role="tab" aria-controls="var" aria-selected="true">Vår</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="host-tab" data-toggle="tab" href="#host" role="tab" aria-controls="host" aria-selected="true">Höst</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="vinter-tab" data-toggle="tab" href="#vinter" role="tab" aria-controls="vinter" aria-selected="true">Vinter</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="fysiska-tab" data-toggle="tab" href="#fysiska" role="tab" aria-controls="fysiska" aria-selected="true">Fysiska</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link joel_filter_btn d-flex justify-content-center align-items-center" id="avkopplande-tab" data-toggle="tab" href="#avkopplande" role="tab" aria-controls="avkopplande" aria-selected="true">Avkopplande</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="tab-content" id="myTabContent">
+      <div class=" tab-pane fade show active" id="popularast">
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!---Second Row --->
+    
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="6">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/klosterlängan_logog.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_3.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">I denna 800-åriga byggnad skapas idag helt unika exklusiva evenemang.</h5>
+                <p class="card-text">Välkommen till det medeltida konventet Klosterlängan. Här arrangerar vi allt från mingel och fördrink till exklusiva middagar, möten och champagneprovningar.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="1">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/kultudralen_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/kultudralen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev 800 år av möten i en förstklassig och magisk eventmiljö.</h5>
+                <p class="card-text">Tillsammans med Gotlands bästa restauratörer och underhållare skapar vi en oförglömlig upplevelse som vi garanterar kommer leva kvar i minnet hos Er. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="7">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/guidade.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Guidadeturer.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Låt öns bästa guider ta dig på er på en tur precis dit du vill.</h5>
+                <p class="card-text">Våra turer som sträcker sig från innerstaden upp till rakbältena i norr och ner till Hoburgsgubben i söder. Du bestämmer om det är på cykel, i buss eller en härlig vandring.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="8">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/nolimits_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_4.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Vågar krypa ur trygghetszoner med fart, höjer eller småkryp.</h5>
+                <p class="card-text">I den här aktiviteten sätter vi deltagarna på prov och utforskar no-go zones. Oavsett om det är rovdjur eller höjder så utmanar vi i vått och tort, högt och lågt. Rädslor blir hallon!</p>
+              </div>
+            </div>
+          </div>
+          
+          <!---Third Row --->
+    
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="9">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/gotbry.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_5.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev en riktig ölverkstad där det alltid pågår ett smakfullt experiment</h5>
+                <p class="card-text">Under en ölprovning i det historiska bryggeriet innanför murarna kan du alltid känna dofterna från gäsningen, malten och passionen från bryggmästaren. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="10">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/kutkäldu_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/kutkäldu.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Vår hemligaste plats gömmer sig långt in i den gotländskaurskogen</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac scelerisque nisl. Proin enim enim, rutrum vel lorem sed, facilisis suscipit sapien. Mauris tristique nec arcu id lobortis. </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="11">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/mb_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/mount_bike.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Låt öns bästa guider ta dig på er på en tur precis dit du vill.</h5>
+                <p class="card-text">Våra turer som sträcker sig från innerstaden upp till rakbältena i norr och ner till Hoburgsgubben i söder. Du bestämmer om det är på cykel, i buss eller en härlig vandring.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="12">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="sma_grupper">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="stora_grupper">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="sommar">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="var">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="host">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="vinter">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="fysiska">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class=" tab-pane fade" id="avkopplande">
+        
+        <div class="row joel_thumbnail_content no-gutters">
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="3">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/Slaget_om_visby_logo_thumb.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_1.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Upplev ett medeltida Gotland med företaget anno 1300 a.c.</h5>
+                <p class="card-text">Bland gränder och dimhöjda ruiner, gränder och annars låsta ruiner får ni lösa gåtor och uppgifter som kräver samarbete samtidigt som ni får uppleva världsarvsstaden Visby.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="2">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/The_artist_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/Rectangle_2.png" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">En kommunikation och sammarbets- prövande aktivitet med massor skratt</h5>
+                <p class="card-text">Denna övning sätter såväl samarbetsförmåga och kommunikation som konstnärlig talang på prov och allas kompetenser kommer verkligen att behövas när penslarna åker fram.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="4">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/GUTASPELEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/gutaspelen.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Den gutniska femkampen lockar alltid fram tävlingsskallarna</h5>
+                <p class="card-text">En pinne eller telefonstolpe, en bit rep, några kuddar och en varpa. Leken kan börja. Testa en bit gutnisk historia där förutsättningarna är enkla, att vinna är viktigt!</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card" target_data_id="5">
+              <div class="logo_container d-flex align-items-center justify-content-center">
+                <img src="logos/SKATTJAKTEN_logo.png" alt="Card image cap" class="logo_img">
+              </div>
+              <img class="card-img-top" src="Thumbnails/skattkakl.jpg" alt="Card image cap">
+              
+              <div class="card-body">
+                <h5 class="card-heading">Du vet aldrig vad du kan hitta i de gamla ruinerna eller i Visbys ringmur</h5>
+                <p class="card-text">Visbys spännande historia går som en röd tråd genom aktiviteten och ni kommer att få uppleva Visby innerstads viktigaste sevärdheter samtidigt som ni alla jagar spillingskatten.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <div class="row joel_view_more_btn_container justify-content-center">
+        <div class="col-xs-12">
+          <button class="joel_view_more_btn">Visa fler</button>
+        </div>
+      </div>
+      
+    </div>
+      
+    
+  </div>
+    
+</section>
+
+<footer class="joel_footer_section">
+  <div class="container">
+    <div class="footer_top_section row">
+      <div class="col-12 col-md-8 left-widget">
+        
+        <h5>För dig som arrangör av möten och konferenser på Gotland</h5>
+        <ul class="d-flex flex-row joel_footer_links">
+          <li><a href="">Upplevelser på Gotland</a></li>
+          <li><a href="">Vårt team</a></li>
+          <li><a href=""><span class="badge badge-pill badge-success">1</span>Jobb</a></li>
+          <li><a href="">Almedalsveckan</a></li>
+        </ul>
+        
+        <ul class="d-flex flex-row joel_follow">
+          <li><span>Följ oss:</span></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+        </ul>
+      
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/goGotland_fullfärg_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo">
+      </div>
+    </div>
+    
+    <div class="footer_bottom_section row">
+      <div class="col-12 col-md-8 left-widget">
+        <ul class="d-flex flex-row">
+          <li><a href="">Kontakta oss</a></li>
+          <li><a href="">F.A.Q</a></li>
+          <li><a href="">Integritetspolicy</a></li>
+          <li><a href="">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/Kammar_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo"/>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"></h4>
+        <button type="button" class="btn btn-danger cl" data-dismiss="modal">×</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        <iframe width="560" height="315" class="modal_video" src="https://www.youtube.com/embed/oBG1ir3D2oY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <!-- Modal footer 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>-->
+      
+    </div>
+  </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="photon/js/jquery-3.3.1.min.js"></script>
+
+<script src="photon/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="photon/js/jquery-ui.js"></script>
+<script src="photon/js/popper.min.js"></script>
+<script src="photon/js/bootstrap.min.js"></script>
+<script src="photon/js/owl.carousel.min.js"></script>
+<script src="photon/js/jquery.stellar.min.js"></script>
+<script src="photon/js/jquery.countdown.min.js"></script>
+<script src="photon/js/jquery.magnific-popup.min.js"></script>
+<script src="photon/js/bootstrap-datepicker.min.js"></script>
+<script src="photon/js/swiper.min.js"></script>
+<script src="photon/js/aos.js"></script>
+
+<script src="photon/js/picturefill.min.js"></script>
+<script src="photon/js/lightgallery-all.min.js"></script>
+<script src="photon/js/jquery.mousewheel.min.js"></script>
+
+<script src="photon/js/main.js"></script>
+<script type="text/javascript" src="js/scrollForever.js"></script>
+<script src="js/joel.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#lightgallery').lightGallery();
+    
+    //$("#myModal").modal();
+    
+    setInterval(function(){
+      if( $('.swiper-button-next').hasClass('swiper-button-disabled') ){
+        //$('.swiper-pagination span.swiper-pagination-bullet:eq(0)').trigger('click');
+      }else{
+        //$('.swiper-button-next').trigger('click');
+      }
+    },2000);
+    
+    //joel_filters_trigger_container
+    
+    $('.joel_filters_trigger_container .filters_btn').click(function(){
+      var joel_filters_id = $(this).closest('.joel_filters_trigger_container').attr('data_target_id');
+      joel_filters_id = '#' + joel_filters_id;
+      $(joel_filters_id).toggleClass('d-flex');
+      $(joel_filters_id).stop().slideToggle();
+    });
+    
+    $(".swiper-container").scrollForever({
+        placeholder: 0,
+        dir: 'left',
+        container: '.swiper-wrapper',
+        inner: '.swiper-slide',
+        speed: 1000,
+        delayTime: 55,
+        continuous: true,
+        num: 1
+        
+        //https://www.jqueryscript.net/animation/jQuery-Plugin-For-Infinite-Any-Content-Scroller-scrollForever.html
+    });
+    
+    //3
+    var slider_target_json_data = {
+      "1": {
+        "switches": {
+          "box_one": {
+            "joel_thin": "UPP TILL 1200",
+            "joel_thick": "DELTAGARE",
+          },
+          
+          "box_two": {
+            "joel_thin": "NI KAN VARA",
+            "joel_thick": "VARSOMHELST",
+          },
+          
+          "box_three": {
+            "joel_thin": "1-300",
+            "joel_thick": "LAG",
+          },
+          
+          "box_four": {
+            "joel_thin": "UPP TILL 2",
+            "joel_thick": "TIMMAR",
+          },
+          
+        },
+        
+        "joel_description_area_title": "Upplev 800 år av möten i en förstklassig och magisk eventmiljö.",
+        "joel_description_area_description": "Tillsammans med Gotlands bästa restauratörer och underhållare skapar vi en oförglömlig upplevelse som vi garanterar kommer leva kvar i minnet hos Er.",
+        "joel_description_gadgets_logo": "logos/kultudralen_logo.png",
+        "joel_description_gadgets_logo_height": "auto",
+        "joel_description_gadgets_logo_width": "100%",
+        "film_link": "https://www.youtube.com/embed/rX3B9BSoT4o?autoplay=1",
+        "book_link": "",
+        "body_image": "photon/images/Visby@2x.jpg"
+      },
+      
+      "2": {
+        "switches": {
+          "box_one": {
+            "joel_thin": "UPP TILL 1200",
+            "joel_thick": "DELTAGARE",
+          },
+          
+          "box_two": {
+            "joel_thin": "NI KAN VARA",
+            "joel_thick": "VARSOMHELST",
+          },
+          
+          "box_three": {
+            "joel_thin": "1-300",
+            "joel_thick": "LAG",
+          },
+          
+          "box_four": {
+            "joel_thin": "UPP TILL 2",
+            "joel_thick": "TIMMAR",
+          },
+          
+        },
+        
+        "joel_description_area_title": "En Komunikations och sammarbetsprövande aktivitet med massor skratt",
+        "joel_description_area_description": "Bland gränder och dimhöjda ruiner hägrar de hemliga mötesplatserna. Där utspelas också ett spännande äventyr. En konferens på ön ger möjligheten till såväl äventyr upplevelser och utveckling. Lös gåtor och uppgifter som kräver samarbete. Mellan utmaningar och möten i gränder samlas ni i Visbys ruiner där ni under ledning av medeltidsprofiler får tävla mot varandra. Kom tillbaka till ön och upptäck med medeltida Visby där vi utvecklas med vår historia.",
+        "joel_description_gadgets_logo": "logos/The_artist_logo.png",
+        "joel_description_gadgets_logo_height": "63px",
+        "joel_description_gadgets_logo_width": "226px",
+        "film_link": "https://www.youtube.com/embed/bo_634tV5v8?autoplay=1",
+        "book_link": "",
+        "body_image": "photon/images/The Artist@2x.jpg"
+      },
+      
+      "3": {
+        "switches": {
+          "box_one": {
+            "joel_thin": "UPP TILL 1200",
+            "joel_thick": "DELTAGARE",
+          },
+          
+          "box_two": {
+            "joel_thin": "HELA VISBY AR",
+            "joel_thick": "AKTIVITETSPLATS",
+          },
+          
+          "box_three": {
+            "joel_thin": "4-32",
+            "joel_thick": "LAG",
+          },
+          
+          "box_four": {
+            "joel_thin": "2-5",
+            "joel_thick": "TIMMAR",
+          },
+          
+        },
+        
+        "joel_description_area_title": "Upplev ett modeltida Gotland med foretaget",
+        "joel_description_area_description": "Bland gränder och dimhöjda ruiner hägrar de hemliga mötesplatserna. Där utspelas också ett spännande äventyr. En konferens på ön ger möjligheten till såväl äventyr upplevelser och utveckling. Lös gåtor och uppgifter som kräver samarbete. Mellan utmaningar och möten i gränder samlas ni i Visbys ruiner där ni under ledning av medeltidsprofiler får tävla mot varandra. Kom tillbaka till ön och upptäck med medeltida Visby där vi utvecklas med vår historia.",
+        "joel_description_gadgets_logo": "logos/Slaget_om_visby_logo.png",
+        "joel_description_gadgets_logo_height": "76px",
+        "joel_description_gadgets_logo_width": "159px",
+        "film_link": "https://www.youtube.com/embed/oBG1ir3D2oY?autoplay=1",
+        "book_link": "",
+        "body_image": "photon/images/Visby2x.jpg"
+      }
+      
+    };
+    
+    joel_frontpage_animation(slider_target_json_data);
+    
+    /*$(window).load(function(){
+      $(".preload_container svg").delay(1000).fadeOut();
+      $(".preload_container").delay(1000).fadeOut("slow");
+    });*/
+    
+  });
+  
+  jQuery(window).load(function(){
+    jQuery(".preload_container svg").delay(1500).fadeOut();
+    jQuery(".preload_container").delay(1500).fadeOut("slow");
+  });
+</script>
+</body>
+</html>

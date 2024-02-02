@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Joel Theme</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="photon/fonts/icomoon/style.css">
+    
+    <link rel="stylesheet" href="photon/css/jquery-ui.css">
+    <link rel="stylesheet" href="photon/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="photon/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="photon/css/lightgallery.min.css">    
+    
+    <link rel="stylesheet" href="photon/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="photon/fonts/flaticon/font/flaticon.css">
+    
+    <link rel="stylesheet" href="photon/css/swiper.css">
+
+    <link rel="stylesheet" href="photon/css/aos.css">
+
+    <link rel="stylesheet" href="photon/css/style.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/bootstrap.min.js" ></script>
+    
+</head>
+<body class="joel_front_page joel_landing_page_one joel_html_page joel_html_contact_form">
+  
+<div class="preload_container">
+	<svg id="gogotland-logo" xmlns="http://www.w3.org/2ffffff/svg" viewBox="0 0 309.116 324.165">
+	  <g>
+	    <path id="circle-bot" d="M92.548,284.8a54.226,54.226,0,1,0-54.226-54.226A54.226,54.226,0,0,0,92.548,284.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-mid" d="M270.794,162.037a54.226,54.226,0,1,1-54.226-54.226A54.226,54.226,0,0,1,270.794,162.037Z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-top" d="M92.548,39.368A54.226,54.226,0,1,1,38.322,93.594,54.226,54.226,0,0,1,92.548,39.368" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-line" d="M187.35,39.368h-94.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	  </g>
+	</svg>
+  
+  <style>
+    @-webkit-keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    #gogotland-logo #circle-bot, 
+    #gogotland-logo #circle-mid {
+        -webkit-animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+    }
+    #gogotland-logo #circle-top {
+        -webkit-animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;	
+    }
+    #gogotland-logo #circle-line {
+        stroke-dasharray: 95;
+        stroke-dashoffset: 95;
+        -webkit-animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+                animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+    
+    #gogotland-logo #circle-bot {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, -30px);
+            -ms-transform: translate(30px, -30px);
+                transform: translate(30px, -30px);
+    }
+    
+    #gogotland-logo #circle-top {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, 30px);
+            -ms-transform: translate(30px, 30px);
+                transform: translate(30px, 30px);
+    }
+    
+    #gogotland-logo #circle-mid {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(-40px, 0px);
+            -ms-transform: translate(-40px, 0px);
+                transform: translate(-40px, 0px);
+    }
+
+  </style>
+</div>
+
+<img src="photon/images/Visby2x.jpg" class="joel_background_blur_image"/>
+<header id="header_section" class="header_section header_two">
+    <nav class="nav_section d-block" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 joel_contact">
+                    <a href="tel:+46498213300"><img src="icons/phone_2.png" /> <b>0498 213300</b></a>
+                </div>
+                
+                <div class="col-4 text-right joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/goGotland_fullfarg_Logo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="nav_section d-none" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/goGotland_fullfarg_Logo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+                
+                <div class="col-12 joel_contact"><i class="fas fa-phone-alt"></i> <b>0498-213300</b></div>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+
+<!-- frontpage Content -->
+<section class="joel_fp_header_section">
+    
+    <!--<video autoplay="" muted="" loop="" id="myVideo" class="stage_video">
+        <source src="video/gogotland_klipp_HD.mp4" type="video/mp4">
+    </video>-->
+    
+		<div class="container">
+			<div class="middle_section d-flex align-items-center justify-content-center">
+				
+                <div class="fp_middle_title_section_contaniner">
+                  <h3 class="fp_middle_section_title">Inget möte är det andra likt.</h3>
+                  <span class="fp_middle_section_description">Inför varje event går vi igenom våra ringar för att skapa <br class="d-none d-lg-block"/>en delad bild av er tid på ön. Upptäck er känsla här....</span>
+                </div>
+                
+                <div class="fp_middle_section_calander d-flex flex-column align-items-center justify-content-center">
+                  
+        					<div class="container">
+                    <div class="gotland_form_step_1 gotland_form_step">
+                      <img src="icons/group_2.png" class="joel_form_progress"/>
+                      <div class="card joel_my_card">
+                          <h4 class="joel_cal_head joel_tab_days d-none">Välj preliminärt avresedatum</h4>
+                          <h3 class="card-header d-none" id="monthAndYear"></h3>
+                          <table class="joel_my_tab table table-responsive-sm joel_tab_days d-none" id="calendar">
+                              <thead>
+                              <tr class="joel_days_name">
+                                  <th>Sun</th>
+                                  <th>Mon</th>
+                                  <th>Tue</th>
+                                  <th>Wed</th>
+                                  <th>Thu</th>
+                                  <th>Fri</th>
+                                  <th>Sat</th>
+                              </tr>
+                              </thead>
+                  
+                              <tbody id="calendar-body">
+                  
+                              </tbody>
+                          </table>
+                          
+                          <h4 class="joel_cal_head joel_tab_months">Välj preliminär avrese månad</h4>
+                          <table class="joel_my_tab table table-responsive-sm joel_tab_months" id="calendar">
+                              
+                              <tbody id="month-body" class="d-none d-sm-block">
+                                
+                                <tr>
+                                  <td data-month="1"><span>Januari</span></td>
+                                  <td data-month="2"><span>Februari</span></td>
+                                  <td data-month="3"><span>Mars</span></td>
+                                  <td data-month="4"><span>April</span></td>
+                                </tr>
+                                
+                                <tr>
+                                  <td data-month="5"><span>Maj</span></td>
+                                  <td data-month="6"><span>Juni</span></td>
+                                  <td data-month="7"><span>Juli</span></td>
+                                  <td data-month="8"><span>Augusti</span></td>
+                                </tr>
+                                
+                                <tr>
+                                  <td data-month="9"><span>September</span></td>
+                                  <td data-month="10"><span>Oktober</span></td>
+                                  <td data-month="11"><span>November</span></td>
+                                  <td data-month="12"><span>December</span></td>
+                                </tr>
+                              </tbody>
+                              
+                              <tbody id="month-body" class="d-block d-sm-none">
+                                
+                                <tr>
+                                  <td data-month="1"><span>Jan</span></td>
+                                  <td data-month="2"><span>Feb</span></td>
+                                  <td data-month="3"><span>Mars</span></td>
+                                  <td data-month="4"><span>April</span></td>
+                                  <td data-month="5"><span>Maj</span></td>
+                                  <td data-month="6"><span>Juni</span></td>
+                                  <td data-month="7"><span>Juli</span></td>
+                                  <td data-month="8"><span>Aug</span></td>
+                                  <td data-month="9"><span>Sep</span></td>
+                                  <td data-month="10"><span>Okt</span></td>
+                                  <td data-month="11"><span>Nov</span></td>
+                                  <td data-month="12"><span>Dec</span></td>
+                                </tr>
+                              </tbody>
+                              
+                          </table>
+                          
+                          <h4 class="joel_cal_head joel_tab_nights d-none">Välj prelimiminärt antal nätter</h4>
+                          <table class="joel_my_tab table table-responsive-sm joel_tab_nights d-none" id="calendar">
+                              
+                              <tbody id="night-body">
+                                
+                                <tr>
+                                  <td data-night="1"><span>1</span></td>
+                                  <td data-night="2"><span>2</span></td>
+                                  <td data-night="3"><span>3</span></td>
+                                  <td data-night="4"><span>4</span></td>
+                                  <td data-night="5"><span>5</span></td>
+                                </tr>
+                                
+                              </tbody>
+                          </table>
+                          
+                          <h4 class="joel_cal_head joel_tab_years d-none">Välj år</h4>
+                          <table class="joel_my_tab table table-responsive-sm joel_tab_years d-none" id="calendar">
+                              <thead>
+                              <tr class="joel_days_name">
+                                  <th>Sun</th>
+                                  <th>Mon</th>
+                                  <th>Tue</th>
+                                  <th>Wed</th>
+                              </tr>
+                              </thead>
+                  
+                              <tbody id="years-body">
+                                
+                                <tr>
+                                  
+                                </tr>
+                                
+                              </tbody>
+                          </table>
+                          
+                          <h4 class="joel_cal_head joel_tab_guests d-none">Uppskattat antal gäster</h4>
+                          <table class="joel_my_tab table table-responsive-sm joel_tab_guests d-none" id="calendar">
+                              <thead>
+                              <tr class="joel_days_name">
+                                  <th>Sun</th>
+                              </tr>
+                              </thead>
+                  
+                              <tbody id="guests-body">
+                                
+                                <tr>
+                                  <td>
+                                    <span><input type="number" class="guests-number" placeholder="Ange antal" /><br />
+                                      <i class="joel_req_field d-none">This field is required!</i>
+                                    </span>
+                                  </td>
+                                </tr>
+                                
+                              </tbody>
+                          </table>
+                          
+                          <div class="form-inline d-none">
+                              <button class="btn btn-outline-primary col-sm-6" id="previous">Previous</button>
+                              <button class="btn btn-outline-primary col-sm-6" id="next">Next</button>
+                          </div>
+                          <form class="form-inline d-none">
+                              <label class="lead mr-2 ml-2" for="month">Jump To: </label>
+                              <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
+                                  <option value=0>Jan</option>
+                                  <option value=1>Feb</option>
+                                  <option value=2>Mar</option>
+                                  <option value=3>Apr</option>
+                                  <option value=4>May</option>
+                                  <option value=5>Jun</option>
+                                  <option value=6>Jul</option>
+                                  <option value=7>Aug</option>
+                                  <option value=8>Sep</option>
+                                  <option value=9>Oct</option>
+                                  <option value=10>Nov</option>
+                                  <option value=11>Dec</option>
+                              </select>
+                  
+                  
+                              <label for="year"></label><select class="form-control col-sm-4" name="year" id="year" onchange="jump()">
+                              <option value=1990>1990</option>
+                              <option value=1991>1991</option>
+                              <option value=1992>1992</option>
+                              <option value=1993>1993</option>
+                              <option value=1994>1994</option>
+                              <option value=1995>1995</option>
+                              <option value=1996>1996</option>
+                              <option value=1997>1997</option>
+                              <option value=1998>1998</option>
+                              <option value=1999>1999</option>
+                              <option value=2000>2000</option>
+                              <option value=2001>2001</option>
+                              <option value=2002>2002</option>
+                              <option value=2003>2003</option>
+                              <option value=2004>2004</option>
+                              <option value=2005>2005</option>
+                              <option value=2006>2006</option>
+                              <option value=2007>2007</option>
+                              <option value=2008>2008</option>
+                              <option value=2009>2009</option>
+                              <option value=2010>2010</option>
+                              <option value=2011>2011</option>
+                              <option value=2012>2012</option>
+                              <option value=2013>2013</option>
+                              <option value=2014>2014</option>
+                              <option value=2015>2015</option>
+                              <option value=2016>2016</option>
+                              <option value=2017>2017</option>
+                              <option value=2018>2018</option>
+                              <option value=2019>2019</option>
+                              <option value=2020>2020</option>
+                              <option value=2021>2021</option>
+                              <option value=2022>2022</option>
+                              <option value=2023>2023</option>
+                              <option value=2024>2024</option>
+                              <option value=2025>2025</option>
+                              <option value=2026>2026</option>
+                              <option value=2027>2027</option>
+                              <option value=2028>2028</option>
+                              <option value=2029>2029</option>
+                              <option value=2030>2030</option>
+                          </select></form>
+                      </div>
+                    
+                    
+                      <form action="" method="post" class="calendar_submit">
+                        <div class="row align-items-center justify-content-center fp_middle_section_calander_row">
+                          
+                          <div class="col-12 col-sm-6 col-md-4 cal_item d-flex align-items-center justify-content-center departure">
+                            <div class="row no-gutters">
+                              <div class="col-12 cal_top_sec">
+                                <span class="cal_top">AVRESA</span>
+                              </div>
+                              <div class="col-8 cal_numb_sec">
+                                <h2>15</h2>
+                              </div>
+                              <div class="col-4 cal_mon_sec">
+                                <h6>Aug</h6>
+                                <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <input type="hidden" class="joel_date_picker" />
+                            </div>
+                          </div>
+                          
+                          <div class="col-12 col-sm-6 col-md-4 cal_item d-flex align-items-center justify-content-center comeback">
+                            <div class="row no-gutters">
+                              <div class="col-12 cal_top_sec">
+                                <span class="cal_top">HEMRESA</span>
+                              </div>
+                              <div class="col-8 cal_numb_sec">
+                                <h2>17</h2>
+                              </div>
+                              <div class="col-4 cal_mon_sec">
+                                <h6>Aug</h6>
+                                <i class="fas fa-chevron-down"></i>
+                              </div>                  
+                            </div>
+                          </div>
+                          
+                          <div class="col-12 col-sm-12 col-md-4 cal_item d-flex align-items-center justify-content-center joel_guests_cont">
+                            <div class="row no-gutters">
+                              <div class="col-12 cal_top_sec">
+                                <span class="cal_top">DELTAGARE</span>
+                              </div>
+                              <div class="col-8 cal_numb_sec">
+                                <h2>75</h2>
+                              </div>
+                              <div class="col-4 cal_mon_sec">
+                                <i class="fas fa-chevron-up"></i>
+                                <i class="fas fa-chevron-down"></i>
+                              </div>                  
+                            </div>
+                          </div>
+                          
+                        
+                        </div>
+                      </form>
+                    </div>
+                    
+                    <div class="gotland_form_step_2 gotland_form_step d-none">
+                      <img src="icons/group_3.png" class="joel_form_progress"/>
+                      <div class="joel_gotland_range_sliders">
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Ekonomisk</div>
+                            <div class="col-6 range_text_b">Lyxig</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_one" name="" min="1" max="10" step="1" value="5" range_target="ekonomisk" />
+                        </div>
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Mogen</div>
+                            <div class="col-6 range_text_b">Ungdomlig</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_two" name="" min="1" max="10" step="1" value="5" range_target="mogen"/>
+                        </div>
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Kvinlig</div>
+                            <div class="col-6 range_text_b">Manlig</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_three" name="" min="1" max="10" step="1" value="5" range_target="kvinlig"/>
+                        </div>
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Lekfull</div>
+                            <div class="col-6 range_text_b">Sofistikerad</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_four" name="" min="1" max="10" step="1" value="5" range_target="lekfull"/>
+                        </div>
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Avkopplande</div>
+                            <div class="col-6 range_text_b">Aktiva</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_five" name="" min="1" max="10" step="1" value="5" range_target="avkopplande"/>
+                        </div>
+                        
+                        <div class="go_range_slider_unique d-flex align-items-center justify-content-center flex-column">
+                          <div class="row range_text">
+                            <div class="col-6 range_text_a">Staden</div>
+                            <div class="col-6 range_text_b">Landet</div>
+                          </div>
+                          <input type="range" class="go_range_slider range_six" name="" min="1" max="10" step="1" value="5" range_target="staden"/>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="gotland_form_step_3 gotland_form_step d-none">
+                      <img src="icons/group_4.png" class="joel_form_progress"/>
+                      <div class="joel_email_subs_section">
+                        <div class="row email_subs_row no-gutters justify-content-center align-items-center">
+                          <div class="col-12 col-lg-8 email_subs_col">
+                            <h2 class="email_subs_head"> <i class="ei">3</i><i class="fas fa-chevron-right" aria-hidden="true"></i>Ange din email så sparar vi ditt arbete.</h2>
+                            <input type="text" class="email_subs_field" placeholder="Skriv din epostadress här...">
+                            <br />
+                            <i class="joel_req_field d-none">This field is required!</i>
+                            <br />
+                            <div class="email_subs_btn_container">
+                              <input type="button" class="email_subs_button" id="email_subs_button" value="Skicka">
+                              
+                            </div>
+                            <p>Vi håller hårt i din data med vår GDPR Policy.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+                    <div class="gotland_form_step_4 gotland_form_step d-none">
+                      <br />
+                      <img src="icons/group_5.png" class="joel_form_progress"/>
+                      <div class="joel_email_subs_section">
+                        <div class="row email_subs_row no-gutters justify-content-center align-items-center">
+                          <div class="col-12 col-lg-8 email_subs_col">
+                            <h2 class="email_subs_head"> <i class="ei">4</i><i class="fas fa-chevron-right" aria-hidden="true"></i>Din plan är nu i trygga händer</h2>
+                            <p>Din plan är nu på väg in i händerna på någon av våra erfarna eventmakare som kommer hjälpa <br class="d-none d-lg-block"/>dig vidare inom 48 timmar. Har du några frågor kan du alltid höra av dig direkt till oss på <br class="d-none d-lg-block"> telefon eller skicka ett mail. </p>
+                            <br />
+                            <br />
+                            <br />
+                            <h5>Frågor? Tveka inte att kontakta oss</h5>
+                            
+                            <br />
+                            <br />
+                            <div class="row">
+                              <div class="col-sm-6 col-12 joel_contact d-flex align-items-center justify-content-center justify-content-sm-end">
+                                  <a href="tel:+46498213300"><img src="icons/phone_2.png"> <b>0498 213300</b></a>
+                              </div>
+                              
+                              <div class="col-sm-6 col-12 text-right joel_logo d-flex align-items-center justify-content-center justify-content-sm-start">
+                                  <a class="navbar-brand text-right" href="mailto:info@gogotland.se">info@gogotland.se</a>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="joel_btns_gotland_form d-flex align-items-center justify-content-center none_at_any_cost">
+                      <button type="button" class="joel_change_range_data_btn d-none">Ändra känsla</button>
+                      <button type="button" class="joel_change_date_btn">Ändra datum</button>
+                      <button type="button" class="joel_next_btn">Nästa</button>
+                    </div>
+                    
+                    <div class="d-none">
+                      <input type="hidden" class="joe_follow_steps" value="step_one" />
+                      
+                      <form action="" method="post" class="joel_hidden_form_data">
+                        <input type="hidden" class="joel_target_days_table" value=""/>
+                        <input type="hidden" class="joel_target_month_table" value=""/>
+                        <input type="hidden" class="joel_target_nights_table" value=""/>
+                        <input type="hidden" class="joel_target_year_table" value=""/>
+                        
+                        <input type="hidden" class="j_departure_table" value=""/>
+                        <input type="hidden" class="j_comeback_table" value=""/>
+                        
+                        <input type="hidden" class="j_guests" value=""/>
+                        
+                        <input type="hidden" class="ekonomisk" value=""/>
+                        <input type="hidden" class="mogen" value=""/>
+                        <input type="hidden" class="kvinlig" value=""/>
+                        <input type="hidden" class="lekfull" value=""/>
+                        <input type="hidden" class="avkopplande" value=""/>
+                        <input type="hidden" class="staden" value=""/>
+                        
+                        <input type="hidden" class="subs_email" value=""/>
+                        
+                      </form>
+                    </div>
+                    
+                  </div>
+                </div>
+        
+			</div>
+		</div>
+</section>
+
+
+<footer class="joel_footer_section">
+  <div class="container">
+    <div class="footer_top_section row">
+      <div class="col-12 col-md-8 left-widget">
+        
+        <h5>För dig som arrangör av möten och konferenser på Gotland</h5>
+        <ul class="d-flex flex-row joel_footer_links">
+          <li><a href="">Upplevelser på Gotland</a></li>
+          <li><a href="">Vårt team</a></li>
+          <li><a href=""><span class="badge badge-pill badge-success">1</span>Jobb</a></li>
+          <li><a href="">Almedalsveckan</a></li>
+        </ul>
+        
+        <ul class="d-flex flex-row joel_follow">
+          <li><span>Följ oss:</span></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+        </ul>
+      
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/goGotland_fullfarg_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo">
+      </div>
+    </div>
+    
+    <div class="footer_bottom_section row">
+      <div class="col-12 col-md-8 left-widget">
+        <ul class="d-flex flex-row">
+          <li><a href="">Kontakta oss</a></li>
+          <li><a href="">F.A.Q</a></li>
+          <li><a href="">Integritetspolicy</a></li>
+          <li><a href="">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/Kammar_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo"/>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"></h4>
+        <button type="button" class="btn btn-danger cl" data-dismiss="modal">×</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        <iframe width="560" height="315" class="modal_video" src="https://www.youtube.com/embed/oBG1ir3D2oY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <!-- Modal footer 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>-->
+      
+    </div>
+  </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="photon/js/jquery-3.3.1.min.js"></script>
+
+<script src="photon/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="photon/js/jquery-ui.js"></script>
+<script src="photon/js/popper.min.js"></script>
+<script src="photon/js/bootstrap.min.js"></script>
+<script src="photon/js/owl.carousel.min.js"></script>
+<script src="photon/js/jquery.stellar.min.js"></script>
+<script src="photon/js/jquery.countdown.min.js"></script>
+<script src="photon/js/jquery.magnific-popup.min.js"></script>
+<script src="photon/js/bootstrap-datepicker.min.js"></script>
+<script src="photon/js/swiper.min.js"></script>
+<script src="photon/js/aos.js"></script>
+
+<script src="photon/js/picturefill.min.js"></script>
+<script src="photon/js/lightgallery-all.min.js"></script>
+<script src="photon/js/jquery.mousewheel.min.js"></script>
+
+<script src="photon/js/main.js"></script>
+<script type="text/javascript" src="js/scrollForever.js"></script>
+ <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="js/joel.js"></script>
+
+<script>
+  $(document).ready(function(){
+    
+    joel_page_func();
+    //date_pick_selector('.joel_date_picker', '.fp_middle_section_calander .ui-datepicker-trigger','.departure');
+    
+    
+    /*$(window).load(function(){
+      $(".preload_container svg").delay(1000).fadeOut();
+      $(".preload_container").delay(1000).fadeOut("slow");
+    });*/
+    
+    //joel_scroll_to_the_target('.animate_down','', '.joel_fp_header_section');
+    
+    
+    
+    $('.joel_btns_gotland_form  .joel_next_btn').click(function(){
+      
+      if( $('.joe_follow_steps').val() == 'step_one' ){
+        
+        if( $('.guests-number').val() == '' || $('.guests-number').val() <= 0 ){
+            $('.guests-number').css('borderBottom', '2px solid #cd3232');
+            //d-none
+            $('.joel_tab_guests i.joel_req_field').removeClass('d-none');
+        }else{
+            $('.guests-number').css('borderBottom', '2px solid #e1e1e1');
+            $('.joel_tab_guests i.joel_req_field').addClass('d-none');
+            
+            $('.gotland_form_step, table.joel_my_tab, .joel_cal_head').addClass('d-none');
+            $('.gotland_form_step_2').removeClass('d-none');
+            
+            $('.joe_follow_steps').val('step_two');
+            
+        }
+        
+      }else if( $('.joe_follow_steps').val() == 'step_two' ){
+        
+        $('.go_range_slider_unique .go_range_slider').each(function(){
+          
+          var range_target = $(this).attr('range_target');
+          var data_class = '.joel_hidden_form_data .' + range_target;
+          var t_range = $(this).val();
+          
+          $(data_class).val(t_range);
+          
+        });
+        
+        $(this).text('Begär förslag');
+        
+        $('.gotland_form_step, table.joel_my_tab, .joel_cal_head').addClass('d-none');
+        $('.gotland_form_step_3').removeClass('d-none');
+        
+        $('.joe_follow_steps').val('step_three');
+        
+        $('.joel_change_date_btn').addClass('d-none');
+        $('.joel_change_range_data_btn').removeClass('d-none');
+        
+      }else if( $('.joe_follow_steps').val() == 'step_three' ){
+        
+        if( $('.email_subs_field').val() == '' ){
+          
+            $('.email_subs_field').css('borderBottom', '2px solid #cd3232');
+            //d-none
+            $('.email_subs_col i.joel_req_field').removeClass('d-none');
+            
+        }else{
+          
+            $('.email_subs_field').css('borderBottom', '2px solid #e1e1e1');
+            $('.email_subs_col i.joel_req_field').addClass('d-none');
+            
+            $('.gotland_form_step, table.joel_my_tab, .joel_cal_head').addClass('d-none');
+            $('.gotland_form_step_4').removeClass('d-none');
+            
+            $('.joel_btns_gotland_form').addClass('none_at_any_cost');
+            
+            $('.joe_follow_steps').val('step_four');
+            
+            $('.subs_email').val( $('.email_subs_field').val() );
+        }
+        
+      }
+      
+    });
+    
+    
+    $('.joel_change_range_data_btn').click(function(){
+      
+      $('.gotland_form_step, table.joel_my_tab, .joel_cal_head').addClass('d-none');
+      $('.gotland_form_step_2').removeClass('d-none');
+      
+      $('.joel_change_date_btn').removeClass('d-none');
+      $('.joel_change_range_data_btn').addClass('d-none');
+      
+      $('.joel_next_btn').text('Nästa');
+      
+      $('.joe_follow_steps').val('step_two');
+      
+    });
+    
+    
+    $('.joel_drop_down_btn').click(function(e){
+      var $target = $('.joel_fp_extra_content_section'); 
+      $('html,body').animate({scrollTop: $target.offset().top}, 1000);
+      e.preventDefault();
+    });
+    
+    setInterval(function(){
+      
+      joel_form_step_process('#month-body td','bg-info','.joel_hidden_form_data .joel_target_month_table', '.departure .cal_mon_sec h6', '.joel_tab_days', '.joel_tab_months','data-month');
+      joel_form_step_process('#calendar-body td','bg-info','.joel_hidden_form_data .joel_target_days_table', '.departure .cal_numb_sec h2', '.joel_tab_nights', '.joel_tab_days','data_date');
+      
+      
+      //Extend_one
+      
+      
+      extend_one_joel_form_step_process('#night-body td', 'bg-info','.joel_hidden_form_data .joel_target_nights_table', '', '.joel_tab_years', '.joel_tab_nights', 'data-night', 'false');
+      extend_one_joel_form_step_process('#years-body td', 'bg-info','.joel_hidden_form_data .joel_target_year_table', '', '.joel_tab_guests', '.joel_tab_years', 'data-year', 'true');
+      //joel_form_step_process('#calendar-body td','bg-info','.joel_hidden_form_data .joel_target_days_table', '.departure .cal_numb_sec h2');
+      
+      
+      //Reverse Functions
+      joel_step_form_reverse('.departure .cal_mon_sec', '.gotland_form_step, table.joel_my_tab, .joel_cal_head','.gotland_form_step_1, .joel_tab_months', 'false','');
+      joel_step_form_reverse('.departure .cal_numb_sec, .joel_btns_gotland_form .joel_change_date_btn', '.gotland_form_step, table.joel_my_tab, .joel_cal_head','.gotland_form_step_1, .joel_tab_days', 'false','.joel_hidden_form_data .joel_target_month_table');
+      joel_step_form_reverse('.comeback .cal_numb_sec', '.gotland_form_step, table.joel_my_tab, .joel_cal_head','.gotland_form_step_1, .joel_tab_nights', 'false','.joel_hidden_form_data .joel_target_days_table');
+      
+      var joel_target_days_table = $('.joel_hidden_form_data .joel_target_days_table').val();
+      
+      if(joel_target_days_table != ''){
+        $('#calendar-body td').each(function(){
+          var get_attr = $(this).attr('data_date');
+          $(this).removeClass('bg-info');
+          
+          if( get_attr == joel_target_days_table ){
+            $(this).addClass('bg-info');
+          }
+          
+        });
+      }
+      
+      
+    },1000);
+    
+  });
+  
+  jQuery(window).load(function(){
+    jQuery(".preload_container svg").delay(1500).fadeOut();
+    jQuery(".preload_container").delay(1500).fadeOut("slow");
+    
+  });
+</script>
+</body>
+</html>

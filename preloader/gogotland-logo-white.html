@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gogotland logo</title>
+
+	<style>
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			
+			width: 300px;
+		}
+	</style>
+</head>
+<body>
+	<svg id="gogotland-logo" xmlns="http://www.w3.org/2ffffff/svg" viewBox="0 0 309.116 324.165">
+	  <g>
+	    <path id="circle-bot" d="M92.548,284.8a54.226,54.226,0,1,0-54.226-54.226A54.226,54.226,0,0,0,92.548,284.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-mid" d="M270.794,162.037a54.226,54.226,0,1,1-54.226-54.226A54.226,54.226,0,0,1,270.794,162.037Z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-top" d="M92.548,39.368A54.226,54.226,0,1,1,38.322,93.594,54.226,54.226,0,0,1,92.548,39.368" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-line" d="M187.35,39.368h-94.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	  </g>
+	</svg>
+
+	<style>
+		@-webkit-keyframes draw-in-circles {
+			20%, 80% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		@keyframes draw-in-circles {
+			20%, 80% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		@-webkit-keyframes draw-in-top {
+			0%, 100% {
+				stroke-dashoffset: 341;
+			}
+			15%, 85% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		@keyframes draw-in-top {
+			0%, 100% {
+				stroke-dashoffset: 341;
+			}
+			15%, 85% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		@-webkit-keyframes draw-move {
+			0%, 10%, 90%, 100% {
+				stroke-dashoffset: 95;
+				-webkit-transform: translateX(50px);
+				        transform: translateX(50px);
+			}
+			20%, 80% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		@keyframes draw-move {
+			0%, 10%, 90%, 100% {
+				stroke-dashoffset: 95;
+				-webkit-transform: translateX(50px);
+				        transform: translateX(50px);
+			}
+			20%, 80% {
+				stroke-dashoffset: 0;
+				-webkit-transform: none;
+				        transform: none;
+			}
+		}
+
+		#gogotland-logo #circle-bot, 
+		#gogotland-logo #circle-mid {
+			-webkit-animation: draw-in-circles 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+			        animation: draw-in-circles 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+		}
+		#gogotland-logo #circle-top {
+			-webkit-animation: draw-in-top 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+			        animation: draw-in-top 3s cubic-bezier(0.445, 0.05, 0.55, 0.95) both;	
+		}
+		#gogotland-logo #circle-line {
+			stroke-dasharray: 95;
+			stroke-dashoffset: 95;
+			-webkit-animation: draw-move 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+			        animation: draw-move 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+		}
+
+		#gogotland-logo #circle-bot {
+			stroke-dasharray: 341;
+			stroke-dashoffset: 341;
+			-webkit-transform: translate(30px, -30px);
+			    -ms-transform: translate(30px, -30px);
+			        transform: translate(30px, -30px);
+		}
+
+		#gogotland-logo #circle-top {
+			stroke-dasharray: 341;
+			stroke-dashoffset: 341;
+			-webkit-transform: translate(30px, 30px);
+			    -ms-transform: translate(30px, 30px);
+			        transform: translate(30px, 30px);
+		}
+
+		#gogotland-logo #circle-mid {
+			stroke-dasharray: 341;
+			stroke-dashoffset: 341;
+			-webkit-transform: translate(-40px, 0px);
+			    -ms-transform: translate(-40px, 0px);
+			        transform: translate(-40px, 0px);
+		}
+	</style>
+</body>
+</html>

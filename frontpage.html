@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Joel Theme</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="photon/fonts/icomoon/style.css">
+    
+    <link rel="stylesheet" href="photon/css/jquery-ui.css">
+    <link rel="stylesheet" href="photon/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="photon/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="photon/css/lightgallery.min.css">    
+    
+    <link rel="stylesheet" href="photon/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="photon/fonts/flaticon/font/flaticon.css">
+    
+    <link rel="stylesheet" href="photon/css/swiper.css">
+
+    <link rel="stylesheet" href="photon/css/aos.css">
+
+    <link rel="stylesheet" href="photon/css/style.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="Stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/bootstrap.min.js" ></script>
+    
+</head>
+<body class="joel_front_page joel_landing_page_one">
+  
+<div class="preload_container">
+	<svg id="gogotland-logo" xmlns="http://www.w3.org/2ffffff/svg" viewBox="0 0 309.116 324.165">
+	  <g>
+	    <path id="circle-bot" d="M92.548,284.8a54.226,54.226,0,1,0-54.226-54.226A54.226,54.226,0,0,0,92.548,284.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-mid" d="M270.794,162.037a54.226,54.226,0,1,1-54.226-54.226A54.226,54.226,0,0,1,270.794,162.037Z" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-top" d="M92.548,39.368A54.226,54.226,0,1,1,38.322,93.594,54.226,54.226,0,0,1,92.548,39.368" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	    <path id="circle-line" d="M187.35,39.368h-94.8" fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="33.7"/>
+	  </g>
+	</svg>
+  
+  <style>
+    @-webkit-keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-circles {
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-in-top {
+        0%, 100% {
+            stroke-dashoffset: 341;
+        }
+        15%, 85% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @-webkit-keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    @keyframes draw-move {
+        0%, 10%, 90%, 100% {
+            stroke-dashoffset: 95;
+            -webkit-transform: translateX(50px);
+                    transform: translateX(50px);
+        }
+        20%, 80% {
+            stroke-dashoffset: 0;
+            -webkit-transform: none;
+                    transform: none;
+        }
+    }
+    
+    #gogotland-logo #circle-bot, 
+    #gogotland-logo #circle-mid {
+        -webkit-animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-circles 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+    }
+    #gogotland-logo #circle-top {
+        -webkit-animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;
+                animation: draw-in-top 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95) both;	
+    }
+    #gogotland-logo #circle-line {
+        stroke-dasharray: 95;
+        stroke-dashoffset: 95;
+        -webkit-animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+                animation: draw-move 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    }
+    
+    #gogotland-logo #circle-bot {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, -30px);
+            -ms-transform: translate(30px, -30px);
+                transform: translate(30px, -30px);
+    }
+    
+    #gogotland-logo #circle-top {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(30px, 30px);
+            -ms-transform: translate(30px, 30px);
+                transform: translate(30px, 30px);
+    }
+    
+    #gogotland-logo #circle-mid {
+        stroke-dasharray: 341;
+        stroke-dashoffset: 341;
+        -webkit-transform: translate(-40px, 0px);
+            -ms-transform: translate(-40px, 0px);
+                transform: translate(-40px, 0px);
+    }
+
+  </style>
+</div>
+
+<img src="photon/images/Visby2x.jpg" class="joel_background_blur_image"/>
+<header id="header_section" class="header_section">
+    <nav class="nav_section d-block" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 joel_contact">
+                    <a href="tel:+46498213300"><img src="icons/PHONE@2x.png@2x.png" /> <b>0498 213300</b></a>
+                    <div class="col-6 col-lg-3 text-center joel_description_gadget film_link d-none d-sm-block" data-toggle="modal" data-target="#myModal">
+                        <span>SPELA FILM</span>
+                        <img src="icons/PLAY_bg.png" class="icon_img"/>
+                    </div>
+                </div>
+                
+                <div class="col-4 text-right joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/VitLogo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <nav class="nav_section d-none" id="nav_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center joel_logo">
+                    <a class="navbar-brand text-right" href="#"><img src="icons/VitLogo@2x.png@2x.png" alt="logo"/></a>
+                </div>
+                
+                <div class="col-12 joel_contact"><i class="fas fa-phone-alt"></i> <b>0498-213300</b></div>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+
+<!-- frontpage Content -->
+<section class="joel_fp_header_section">
+    <div class="stage_video_overlay"></div>
+    <!--<video autoplay="" muted="" loop="" id="myVideo" class="stage_video">
+        <source src="video/gogotland_klipp_HD.mp4" type="video/mp4">
+    </video>-->
+    
+    <img src="images/slide2.jpg" id="myVideo" class="stage_video"/>
+    
+		<div class="container">
+			<div class="middle_section d-flex align-items-center justify-content-center">
+				
+        <div class="fp_middle_title_section_contaniner">
+          <h3 class="fp_middle_section_title">Planera er nästa <br />Gotlandskonferens</h3>
+          <span class="fp_middle_section_description">Sätt ihop en helt skräddarsydd plan med  dag till dag planering <br class="d-none d-lg-block"/>med vårt team av projektledare, kreatörer och Gotländska eldsjälar.</span>
+        </div>
+        
+        <div class="fp_middle_section_calander d-flex align-items-center justify-content-center">
+          <form action="" method="post" class="calendar_submit">
+            <div class="row align-items-center justify-content-center">
+              
+              <div class="col-12 col-sm-6 col-md-3 cal_item d-flex align-items-center justify-content-center departure">
+                <div class="row no-gutters">
+                  <div class="col-12 cal_top_sec">
+                    <span class="cal_top">TILL GOTLAND</span>
+                  </div>
+                  <div class="col-8 cal_numb_sec">
+                    <h2>15</h2>
+                  </div>
+                  <div class="col-4 cal_mon_sec">
+                    <h6>Aug</h6>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <input type="hidden" class="joel_date_picker" />
+                </div>
+              </div>
+              
+              <div class="col-12 col-sm-6 col-md-3 cal_item d-flex align-items-center justify-content-center">
+                <div class="row no-gutters">
+                  <div class="col-12 cal_top_sec">
+                    <span class="cal_top">FRÅN GOTLAND</span>
+                  </div>
+                  <div class="col-8 cal_numb_sec">
+                    <h2>17</h2>
+                  </div>
+                  <div class="col-4 cal_mon_sec">
+                    <h6>Aug</h6>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>                  
+                </div>
+              </div>
+              
+              <div class="col-12 col-sm-6 col-md-3 cal_item d-flex align-items-center justify-content-center">
+                <div class="row no-gutters">
+                  <div class="col-12 cal_top_sec">
+                    <span class="cal_top">DELTAGARE</span>
+                  </div>
+                  <div class="col-8 cal_numb_sec">
+                    <h2>75</h2>
+                  </div>
+                  <div class="col-4 cal_mon_sec">
+                    <i class="fas fa-chevron-up"></i>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>                  
+                </div>
+              </div>
+              
+              <div class="col-12 col-sm-6 col-md-3 cal_item d-flex align-items-center justify-content-center">
+                <button class="cal_sub_btn">SKAPA <br />PLAN</button>
+              </div>
+            
+            </div>
+          </form>
+        </div>
+        
+				<div class="brands">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="brands_slider_container">
+                          <div class="owl-carousel owl-theme brands_slider">
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-eventyr-1.png" alt="eventyr" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-grant-1.png" alt="grant" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-af-1.png" alt="af" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-payex-1.png" alt="payex" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-ica-1.png" alt="ica" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-springconf-1.png" alt="springconf" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-spotify-1.png" alt="spotify" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-diplomat-1.png" alt="diplomat" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-industrin-1.png" alt="industrin" /></a></div>
+                              </div>
+                              <div class="owl-item">
+                                  <div class="brands_item d-flex flex-column justify-content-center"><a href="#"><img src="logos/new_logos/logo-tco-1.png" alt="tco" /></a></div>
+                              </div>
+                              
+                          </div> <!-- Brands Slider Navigation -->
+                          <div class="brands_nav brands_prev d-none"><i class="fas fa-chevron-left"></i></div>
+                          <div class="brands_nav brands_next d-none"><i class="fas fa-chevron-right"></i></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+				<a href="#" class="joel_drop_down_btn"><i class="fas fa-chevron-down"></i></a>
+				<div class="d-flex align-items-center justify-content-end joel_logos">
+					<img src="icons/Kammar_Logo@2x.png@2x.png" class="logos_img_one"/>
+					<img src="icons/VisitaLogo@2x.png@2x.png" class="logos_img_two"/>
+				</div>
+				
+			</div>
+		</div>
+</section>
+
+<section class="joel_fp_extra_content_section">
+    <div class="container">
+      <div class="joel_fp_extra_part_one">
+        <h3 class="joel_fp_extra_po_heading">Det här kan vi göra för dig</h3>
+        <p>Vi har en portfölj utav de absolut roligaste och upplevelserna på Gotland.<br /> Vårt mål är att göra det så smidigt som möjligt för dig - ge dig en kontakt till hela Gotland. </p>
+      </div>
+      
+      <div class="row joel_fp_extra_part_two">
+        
+        <div class="col-md-12 col-sm-12 circle_row_col">
+          <div class="row no-gutters">
+            
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex circle_thumbs align-items-center justify-content-center">
+              <img src="images/fixa_a.png" alt="Ellipse" class="img_circle"/>
+              <span>BOKA <br />FLYGET</span>
+            </a>
+            
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex align-items-center justify-content-center">
+              <img src="images/boka_a.png" alt="Ellipse" class="img_circle"/>
+              <span>BOKA <br />FÄRJAN</span>
+            </a>
+          
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex align-items-center justify-content-center">
+              <img src="images/boka_b.png" alt="Ellipse" class="img_circle"/>
+              <span>BOKA <br />HOTELLET</span>
+            </a>
+            
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex align-items-center justify-content-center">
+              <img src="images/boka_c.png" alt="Ellipse" class="img_circle"/>
+              <span>BOKA <br />MÖTESRUM</span>
+            </a>
+            
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex align-items-center justify-content-center">
+              <img src="images/boka_d.png" alt="Ellipse" class="img_circle"/>
+              <span>FIXA <br />FESTERNA</span>
+            </a>
+            
+            <a href="#" class="col-md-2 col-4 circle_thumbs d-flex circle_thumbs align-items-center justify-content-center">
+              <img src="images/fixa_b.png" alt="Ellipse" class="img_circle"/>
+              <span>FIXA <br />AKTIVITETERNA</span>
+            </a>
+            
+          </div>
+        </div>
+        
+        <div class="col-md-12 col-sm-12 j_extra_btns d-flex align-items-center justify-content-center">
+          <div class="row no-gutters">
+            <div class="col-12 d-sm-flex align-items-center justify-content-center">
+              <a href="index.html" class="j_btns btn_light"><span>Ta reda på hur vi gör</span> <i class="fas fa-chevron-right"></i></a> 
+              <a href="index.html" class="j_btns btn_bg"><span>Se vilka vi är</span> <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+</section>
+
+
+<section class="joel_custom_box_section">
+  <!--<div class="container">
+    
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 joel_custom_box_heading">
+        <h3>Rekomenderat för dig</h3>
+      </div>
+    </div>
+    
+  </div>-->
+  
+  
+  <div class="joel_custom_boxes_container">
+    <div class="row no-gutters">
+      
+      <div class="col-12 col-md-12 joel_custom_box_three">
+        <img src="images/slide3.png" alt="Box" class="box_bg"/>
+        <div class="box_mirror"></div>
+        <div class="container">
+          <div class="row no-gutters align-items-center justify-content-start">
+            <div class="col-md-6 col-sm-8 col-12">
+              <h1 class="joel_cb_joining_write"></h1>
+              <h2>Finns ingen bättre plats <br class="d-none d-md-block" />för en riktig show</h2>
+              
+              <p class="box_text">Fånga det perfekta ögonblicket under <br class="d-none d-md-block" />en föreställning i någon av våra ruiner.</p>
+              
+              <p><a href="" ><span>Läs mer</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a> <a href="" ><span>Boka eld</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></p>
+              
+              <!--<div class="joel_custom_box_logos">
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_b.png" alt="Logo B" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_c.png" alt="Logo C" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_a.png" alt="Logo A" /></a>
+              </div>-->
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-12 col-md-6 joel_custom_box_one joel_custom_box">
+          <img src="thumbnails/Box.png" alt="Box" class="box_bg"/>
+          <div class="box_mirror"></div>
+          <h1 class="joel_cb_joining_write"></h1>
+          <h2>Klimatsmart konferens</h2>
+          
+          <p class="box_text">Med nya naturgasfärjor och klimatkompenserade flygturer klimatneutrala hotell och fosilfria transporter, vi hjälper dig ta smarta val.</p>
+          
+          <p><a href="" >Ta reda på mer </a><i class="fas fa-chevron-right" aria-hidden="true"></i> <a href="" >Boka </a><i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          
+          <div class="joel_custom_box_logos">
+            <a href="#" class="joel_custom_box_logo"><img src="images/logo_b.png" alt="Logo B" /></a>
+            <a href="#" class="joel_custom_box_logo"><img src="images/logo_c.png" alt="Logo C" /></a>
+            <a href="#" class="joel_custom_box_logo"><img src="images/logo_a.png" alt="Logo A" /></a>
+          </div>
+          
+        </div>
+        
+        <div class="col-12 col-md-6 joel_custom_box_two joel_custom_box">
+          <img src="thumbnails/Box.png" alt="Box" class="box_bg"/>
+          <div class="box_mirror"></div>
+          <h1 class="joel_cb_joining_write">Konferens Ombord</h1>
+          <h2>En ny konferensupplevelse</h2>
+          
+          <p class="box_text">När mötesagendan till havs är klar väntar en ö full av möjligheter.</p>
+          
+          <p><a href="" >Ta reda på mer </a> <i class="fas fa-chevron-right" aria-hidden="true"></i><a href="" >Boka </a> <i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          
+          <div class="joel_custom_box_logos">
+            <!--<a href="#" class="joel_custom_box_logo"><img src="images/logo_b.png" alt="Logo B" /></a>
+            <a href="#" class="joel_custom_box_logo"><img src="images/logo_c.png" alt="Logo C" /></a>
+            <a href="#" class="joel_custom_box_logo"><img src="images/logo_a.png" alt="Logo A" /></a>-->
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 joel_custom_box_two joel_custom_box">
+          <img src="thumbnails/box_2.png" alt="Box" class="box_bg"/>
+          <div class="box_mirror"></div>
+          <div class="row no-gutters align-items-end justify-content-center joel_dark_bg">
+            <div class="col-12">
+            
+              <h1 class="joel_cb_joining_write"></h1>
+              <h2>Res till Medeltiden</h2>
+              
+              <p class="box_text">Upptäck en anorlunda  konferens med tema i Visbys starka <br class="d-none d-md-block" /> historier om hänsynslösa utspel och krig.</p>
+              
+              <p class="joel_links_class_one"><a href=""><span>Ta reda på mer</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a> <a href="" ><span>Boka</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></p>
+              
+              <!--<div class="joel_custom_box_logos">
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_b.png" alt="Logo B" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_c.png" alt="Logo C" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_a.png" alt="Logo A" /></a>
+              </div>-->
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-md-6 joel_custom_box_one joel_custom_box" style="background-color: #000;">
+          <img src="thumbnails/Box.png" alt="Box" class="box_bg"/>
+          <div class="box_mirror"></div>
+          <div class="row no-gutters align-items-start justify-content-center joel_dark_bg">
+            <div class="col-12">
+            
+              <h1 class="joel_cb_joining_write"></h1>
+              <h2>Klimatsmart konferens</h2>
+              
+              <p class="box_text">Med nya naturgasfärjor och klimatkompenserade flygturer <br class="d-none d-md-block" /> klimatneutrala hotell och fosilfria transporter, vi hjälper dig ta smarta val.</p>
+              
+              <p class="joel_links_class_one text-center"><a href=""><span>Ta reda på mer</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a> <a href="" ><span>Boka</span> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></p>
+              
+              <!--<div class="joel_custom_box_logos">
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_b.png" alt="Logo B" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_c.png" alt="Logo C" /></a>
+                <a href="#" class="joel_custom_box_logo"><img src="images/logo_a.png" alt="Logo A" /></a>
+              </div>-->
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</section>
+<!-- End of frontpage Content -->
+
+<footer class="joel_footer_section">
+  <div class="container">
+    <div class="footer_top_section row">
+      <div class="col-12 col-md-8 left-widget">
+        
+        <h5>För dig som arrangör av möten och konferenser på Gotland</h5>
+        <ul class="d-flex flex-row joel_footer_links">
+          <li><a href="">Upplevelser på Gotland</a></li>
+          <li><a href="">Vårt team</a></li>
+          <li><a href=""><span class="badge badge-pill badge-success">1</span>Jobb</a></li>
+          <li><a href="">Almedalsveckan</a></li>
+        </ul>
+        
+        <ul class="d-flex flex-row joel_follow">
+          <li><span>Följ oss:</span></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+        </ul>
+      
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/goGotland_fullfarg_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo">
+      </div>
+    </div>
+    
+    <div class="footer_bottom_section row">
+      <div class="col-12 col-md-8 left-widget">
+        <ul class="d-flex flex-row">
+          <li><a href="">Kontakta oss</a></li>
+          <li><a href="">F.A.Q</a></li>
+          <li><a href="">Integritetspolicy</a></li>
+          <li><a href="">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 right-widget d-flex align-items-center justify-content-end">
+        <img src="icons/Kammar_Logo@2x.png@2x.png" alt="logo" class="joel_footer_logo"/>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title"></h4>
+        <button type="button" class="btn btn-danger cl" data-dismiss="modal">×</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        <iframe width="560" height="315" class="modal_video" src="https://www.youtube.com/embed/oBG1ir3D2oY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <!-- Modal footer 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>-->
+      
+    </div>
+  </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="photon/js/jquery-3.3.1.min.js"></script>
+
+<script src="photon/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="photon/js/jquery-ui.js"></script>
+<script src="photon/js/popper.min.js"></script>
+<script src="photon/js/bootstrap.min.js"></script>
+<script src="photon/js/owl.carousel.min.js"></script>
+<script src="photon/js/jquery.stellar.min.js"></script>
+<script src="photon/js/jquery.countdown.min.js"></script>
+<script src="photon/js/jquery.magnific-popup.min.js"></script>
+<script src="photon/js/bootstrap-datepicker.min.js"></script>
+<script src="photon/js/swiper.min.js"></script>
+<script src="photon/js/aos.js"></script>
+
+<script src="photon/js/picturefill.min.js"></script>
+<script src="photon/js/lightgallery-all.min.js"></script>
+<script src="photon/js/jquery.mousewheel.min.js"></script>
+
+<script src="photon/js/main.js"></script>
+<script type="text/javascript" src="js/scrollForever.js"></script>
+ <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="js/joel.js"></script>
+
+<script>
+  $(document).ready(function(){
+    
+    
+    //date_pick_selector('.joel_date_picker', '.fp_middle_section_calander .ui-datepicker-trigger','.departure');
+    
+    
+    /*$(window).load(function(){
+      $(".preload_container svg").delay(1000).fadeOut();
+      $(".preload_container").delay(1000).fadeOut("slow");
+    });*/
+    
+    //joel_scroll_to_the_target('.animate_down','', '.joel_fp_header_section');
+    
+    
+    $('.joel_drop_down_btn').click(function(e){
+      var $target = $('.joel_fp_extra_content_section'); 
+      $('html,body').animate({scrollTop: $target.offset().top}, 1000);
+      e.preventDefault();
+    });
+    
+  });
+  
+  jQuery(window).load(function(){
+    jQuery(".preload_container svg").delay(1500).fadeOut();
+    jQuery(".preload_container").delay(1500).fadeOut("slow");
+    
+  });
+</script>
+</body>
+</html>
